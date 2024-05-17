@@ -83,7 +83,7 @@ function App() {
 
   return (
     <div className="todoapp stack-large">
-      <h1>ToDo Guseynov R.</h1>
+      <h1>ToDo Kozina</h1>
       <form onSubmit={(e) => { e.preventDefault(); addTask(e.target.elements[0].value); e.target.reset(); }}>
         <h2 className="label-wrapper">
           <label htmlFor="new-todo-input" className="label__lg">
